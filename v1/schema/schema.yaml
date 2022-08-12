@@ -1,0 +1,27 @@
+schema:                            # required
+  format:                          # required
+    openapi: "3.0.0"               # required
+  environment_input_type: "DataPlaneEnvironmentInput"
+  types:                           # required
+    DataPlaneEnvironmentInput:
+      type: object
+      description: "Input properties for data plane"
+      required:
+        - s3_bucket_name
+        - tags
+      properties:
+        s3_bucket_name:                   # parameter
+          type: string
+          description: "bucket name"
+          default: "dataplane-bucket"
+        tags:
+          type: object
+          properties:
+            nike-application:
+              type: string
+              example: "Alpha"
+              default: "Alpha"
+            nike-environment:
+              type: string
+              example: "test"
+              default: "test"
