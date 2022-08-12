@@ -1,0 +1,10 @@
+{
+  "deploymentId" : "383e89a3-3d52-440d-a459-605236cad109",
+  "isResourceDeleted" : false,
+  "resourceMetadata" : {
+    "arn" : "arn:aws:proton:us-east-1:101381735630:environment/env-test-nike",
+    "templateArn" : "arn:aws:proton:us-east-1:101381735630:environment-template/envtemplate",
+    "templateMajorVersion" : "1",
+    "templateMinorVersion" : "0"
+  }
+}
