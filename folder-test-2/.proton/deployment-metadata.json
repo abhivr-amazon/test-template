@@ -1,0 +1,10 @@
+{
+  "deploymentId" : "71f6463f-a7db-47f2-a7d1-53d9717ac181",
+  "isResourceDeleted" : false,
+  "resourceMetadata" : {
+    "arn" : "arn:aws:proton:us-east-1:101381735630:environment/folder-test-2",
+    "templateArn" : "arn:aws:proton:us-east-1:101381735630:environment-template/envtemplate",
+    "templateMajorVersion" : "1",
+    "templateMinorVersion" : "0"
+  }
+}
